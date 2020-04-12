@@ -1,0 +1,53 @@
+/*
+=========================
+
+=========================
+*/
+
+
+/*
+=========================
+Body Styles
+=========================
+*/
+
+body {
+    background-color: lightgray;
+}
+
+#main-block {
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#readonly-form {
+    padding: 30px;
+    
+}
+
+#btn {
+    margin: 20px;
+
+}
+
+/*
+=========================
+Typography
+=========================
+*/
+
+#main-heading {
+    text-align: center;
+    margin: 5%;
+}
+
+h2 {
+    border-bottom: solid black 5px;
+    padding-bottom: 40px;
+}
+
+#readonly-text {
+    text-align: center;
+}
+
