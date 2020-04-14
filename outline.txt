@@ -1,0 +1,33 @@
+user confirm = choose password length 8-128 characters
+
+user confirm = choose lowercase
+
+user confirm = choose uppercase
+
+user confirm = choose numbers 
+
+user confirm = choose symbols
+
+toLowerCase user input answers to match vars
+
+at least one character type should be selected from above criteria
+
+create vars for upper, lower, num and symbols
+
+switch statement saying
+	
+	if user confirms uppercase, then use upper var
+		otherwise exclude
+
+	if user confirms lowercase, then use lower var
+		otherwise exclude
+
+	if user confirms numbers, then user num var
+		otherwise exclude
+
+	if user confirms symbols, then use symbols var
+		otherwise exclude
+
+function compiling user answers regarding length of password and character preferences while choosing random characters within those peramaters
+and returning generated password to box in screen
+
