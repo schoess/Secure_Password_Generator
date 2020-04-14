@@ -1,4 +1,7 @@
-user confirm = choose password length 8-128 characters
+create vars for upper, lower, num and symbols (make them arrays)
+
+user prompt = choose password length 8-128 characters	
+	if user inputs outside of peramirtors, return error message
 
 user confirm = choose lowercase
 
@@ -8,11 +11,8 @@ user confirm = choose numbers
 
 user confirm = choose symbols
 
-toLowerCase user input answers to match vars
-
 at least one character type should be selected from above criteria
 
-create vars for upper, lower, num and symbols
 
 switch statement saying
 	
@@ -30,4 +30,6 @@ switch statement saying
 
 function compiling user answers regarding length of password and character preferences while choosing random characters within those peramaters
 and returning generated password to box in screen
+
+function has forloop that loops through each character array and appends it to password character array
 
