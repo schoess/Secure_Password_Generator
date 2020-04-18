@@ -1,6 +1,5 @@
 # Secure_Password_Generator
-
-![Main Page](assets/images/htmlpage_SPG.jpg?raw=true "Main Page")
+![htmlpage_SPG](https://user-images.githubusercontent.com/60049799/79672154-1aebe980-8195-11ea-814f-4fc4c25dd426.JPG)
 
 1. Secure Password Generator will first ask you how many characters you would like in your password between 8-128 characters.
 
