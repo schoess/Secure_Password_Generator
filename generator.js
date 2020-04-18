@@ -1,8 +1,15 @@
 var password = ""
+var characters = ""
 
 function gen_pass() {
 
     var len = prompt("Choose a password length between 8-128 characters");
+
+    if (len < 8 || len > 128) {
+        alert("Please choose a password length of BETWEEN 8-128 characters");
+        gen_pass();
+    } 
+
     var uppercase = confirm("Would you like to include uppercase letters in your password?");
     var lowercase = confirm("Would you like to include lowercase letters in your password?");
     var numbers = confirm("Would you like to include numbers in your password?");
@@ -17,19 +24,20 @@ function gen_pass() {
     
 
     var str_user;
-    uppercase===true ? str_user=upperArr :0;
-    lowercase===true ? str_user+=lowerArr :0;
-    numbers===true ? str_user+=numArr :0;
-    symbols===true ? str_user+=symArr :0;
+    uppercase===true ? str_user= characters + upperArr :0;
+    lowercase===true ? str_user+= characters + lowerArr :0;
+    numbers===true ? str_user+= characters + numArr :0;
+    symbols===true ? str_user+= characters + symArr :0;
     
     // commas were being added to password string. Added function to remove commas
 
+    console.log(typeof str_user);
     console.log(str_user);
+    
 
     str_user = str_user.split(",").join(""); 
 
-    console.log(str);
-    console.log(str_user);
+
 
     if(str_user){
         let len_str = str_user.length;
@@ -40,7 +48,7 @@ function gen_pass() {
             alert("Please choose a password length of BETWEEN 8-128 characters");
         }
 
-        for (let i = 0 ; i<len ; i++ ) {
+        for (let i = 0 ; i<len -1 ; i++ ) {
             v=Math.floor(Math.random() * str_user.length);
             console.log(v);
             password += str_user[v];
