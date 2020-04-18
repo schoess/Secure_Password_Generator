@@ -3,7 +3,7 @@
 
 1. Secure Password Generator will first ask you how many characters you would like in your password between 8-128 characters.
 
-
+![numberofcharacters](https://user-images.githubusercontent.com/60049799/79672191-79b16300-8195-11ea-8bac-44ab4341957e.JPG)
 
 2. It will then as you if you would like to include uppercase letters.
 
@@ -15,12 +15,14 @@
 
 4. It will then as you if you would like to include numbers.
 
-![Confirm numbers](assets/images/numbers_confirm.jpg?raw=true "Confirm numbers")
+![numbers_confirm](https://user-images.githubusercontent.com/60049799/79672192-79b16300-8195-11ea-82fd-2b0b02c5410c.JPG)
 
 5. It will then as you if you would like to include symbols.
 
-![Confirm symbols](assets/images/symbols_confirm.jpg?raw=true "Confirm symbols")
+![symbols_confirm](https://user-images.githubusercontent.com/60049799/79672194-7a49f980-8195-11ea-99c6-799a8f4d3600.JPG)
 
 6. Once you have chosen a length of password, as well as the types of characters to be included, your password will be generated into the box in the middle of the screen.
 
-![Generated password](assets/images/passwordgenerated.jpg?raw=true "Generated password")
+![password_generated](https://user-images.githubusercontent.com/60049799/79672193-7a49f980-8195-11ea-8afc-52d7211cbc1d.JPG)
+
+
