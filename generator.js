@@ -34,18 +34,17 @@ function gen_pass() {
     if(str_user){
         let len_str = str_user.length;
         var v= Math.floor(Math.random() * str_user.length);
-        var password = str_user[v];
+        var password = str_user[v];}
+
+        else {
+            alert("Please choose a password length of BETWEEN 8-128 characters");
+        }
 
         for (let i = 0 ; i<len ; i++ ) {
             v=Math.floor(Math.random() * str_user.length);
             console.log(v);
             password += str_user[v];
         }
-        console.log(password);
+
+    document.getElementById("readonly-text").value = password; 
     };
-        
-    //     document.getElementById("readonly-form").value = password;
-    // }   else {
-    //     alert("Please choose a password length of BETWEEN 8-128 characters");
-    // }
-}
