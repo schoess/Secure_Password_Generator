@@ -15,37 +15,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<!--Header-->
-
-<header>
-
-    <h1 id="main-heading">Secure Password Generator</h1>
-
-</header>
-
-<!--Main Section-->
-
-<section>
-
-    <div id="main-block" class="container">
-        <div class="row row-cols-2">
-          <div class="col"><h2>Generate a Password</h2></div>
-          <div class="col"></div>
-        </div>
-        <div class="row">
-            <div id="readonly-form" class="col">
-                <input id="readonly-text" class="form-control" type="text" value="" readonly>
-            </div>
-        </div>
-        <div class="row">
-            <button type="button" id="btn" class="btn btn-primary btn-lg btn-block" onclick="gen_pass()">Generate Secure Password</button>
-        </div>
-      </div>
-
-</section>
 
 <body>
+
+    <!--Header-->
+
+<header>
+    <h1 id="main-heading">Secure Password Generator</h1>
+</header>
+
+    <!--Main Section-->
+
+    <main>
+
+        <!--Conatiner-->
+
+        <section id="main-block" class="container">
+
+            <!--Generate a Password Heading-->
+            
+            <div class="row row-cols-2">
+              <div class="col"><h2>Generate a Password</h2></div>
+              <div class="col"></div>
+            </div>
+
+            <!--Read-Only form containing password output upon completion-->
+
+            <div class="row">
+                <div id="readonly-form" class="col">
+                    <input id="readonly-text" class="form-control" type="text" value="" readonly>
+                </div>
+            </div>
+
+            <!--Generate button that begins javascript process-->
+
+            <div class="row">
+                <button type="button" id="btn" class="btn btn-primary btn-lg btn-block" onclick="gen_pass()">Generate Secure Password</button>
+            </div>
+
+        </section>
     
+    </main>
+
 </body>
 
 
