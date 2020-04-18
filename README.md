@@ -3,15 +3,15 @@
 
 1. Secure Password Generator will first ask you how many characters you would like in your password between 8-128 characters.
 
-![uppercase_confirm](https://user-images.githubusercontent.com/60049799/79672195-7a49f980-8195-11ea-91e2-e8c3ff159056.JPG)
+
 
 2. It will then as you if you would like to include uppercase letters.
 
-![Confirm uppercase](assets/images/uppercase_confirm.jpg?raw=true "Confirm uppercase")
+![uppercase_confirm](https://user-images.githubusercontent.com/60049799/79672195-7a49f980-8195-11ea-91e2-e8c3ff159056.JPG)
 
 3. It will then as you if you would like to include lowercase letters.
 
-![Confirm lowercase](assets/images/lowercase_confirm.jpg?raw=true "Confirm lowercase")
+![lowercase_confirm](https://user-images.githubusercontent.com/60049799/79672190-7918cc80-8195-11ea-9737-ed473906f976.JPG)
 
 4. It will then as you if you would like to include numbers.
 
